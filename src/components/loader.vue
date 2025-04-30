@@ -1,9 +1,9 @@
 <template>
 <div class="spinner"></div>
-</template> 
+</template>
 
 <style scoped>
-/* From Uiverse.io by Nawsome */ 
+/* From Uiverse.io by Nawsome */
 .spinner:before {
   transform: rotateX(60deg) rotateY(45deg) rotateZ(45deg);
   animation: 750ms rotateBefore infinite linear reverse;

@@ -28,16 +28,16 @@ const config = {
       "type":"pic",   //"pic":静态壁纸;"video":动态壁纸
       "datainfo":{
         "title":"太空",
-        "preview":"https://syimg.dpdns.org/myimg/1d6831.png",
-        "url":"https://syimg.dpdns.org/myimg/1d6831.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "preview":"https://syimg.dpdns.org/myimg/05b058.png",
+        "url":"https://syimg.dpdns.org/myimg/05b058.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
       "type":"pic",
       "datainfo":{
         "title":"太空",
-        "preview":"https://syimg.dpdns.org/myimg/1d6831.png",
-        "url":"https://syimg.dpdns.org/myimg/1d6831.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+        "preview":"https://syimg.dpdns.org/myimg/05b058.png",
+        "url":"https://syimg.dpdns.org/myimg/05b058.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
       }
     }
       
@@ -136,7 +136,7 @@ const config = {
 
   //项目卡片 其中 字段"show"控制初始卡片的text是否展开
   projectcards:[ 
-    {go:"🚀 前往",img:"/img/sunshine.jpg",title:"博客",subtitle:"1,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://syjx.dpdns.org",show:false},
+    {go:"🚀 前往",img:"https://syimg.dpdns.org/myimg/1d6831.png",title:"博客",subtitle:"星星之火，可以燎原", text:"博客分享一些教程和其他内容",url:"https://syjx.dpdns.org",show:false},
     // {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Project 2",subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     // {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     // {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
