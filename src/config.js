@@ -1,77 +1,80 @@
 const config = {
   //网页元数据
   metaData:{
-    title: '水月镜心的个人主页🎉',
+    title: '水月镜心的个人主页',
     description: '星星之火，可以燎原',
-    keywords: 'Leleo,leleo,个人主页,个人网站',
-    icon: '/favicon.ico'   //网页图标，支持外链
+    keywords: 'SYJX,水月镜心,个人主页',
+    icon: 'https://syimg.dpdns.org/myimg/b6509d.webp'   //网页图标，支持外链
   },
 
-  avatar: "/img/avatar.jpg", // 头像
+  avatar: "https://syimg.dpdns.org/myimg/b6509d.webp", // 头像
   welcometitle: "Hi, I'm SYJX", // 标题
 
   // 颜色配置
   color: {
-    themecolor: "#FFFFFF", // 主题颜色，推荐趋于亮白可带有轻微色调，例： #D1FFEC
-    welcometitlecolor: "#FFFFFF", // 标题颜色 例： #7BFFC9
+    themecolor: "#D1FFEC", // 主题颜色，推荐趋于亮白可带有轻微色调，例： #D1FFEC
+    welcometitlecolor: "#7BFFC9", // 标题颜色 例： #7BFFC9
   },
   
   brightness: 85, // 背景亮度 --%
   blur: 5, // 毛玻璃模糊效果
 
   // 我的标签
-  tags : ['乐观开朗','温柔体贴','随和亲切','冷静沉着','才思敏捷','风趣幽默','刚正不阿','善解人意'],
+  tags : ['乐观','随和'],
 
   // 默认背景壁纸
   background: {
     "pc":{   //pc端
       "type":"pic",   //"pic":静态壁纸;"video":动态壁纸
       "datainfo":{
-        "title":"海洋女孩", 
-        "preview":"/img/wallpaper/static/海洋女孩/image-pre.webp",
-        "url":"/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "title":"太空",
+        "preview":"https://syimg.dpdns.org/myimg/1d6831.png",
+        "url":"https://syimg.dpdns.org/myimg/1d6831.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
       "type":"pic",
       "datainfo":{
-        "title":"0001", 
-        "preview":"/img/wallpaper/static-mobile/0001/image-pre.webp",
-        "url":"/img/wallpaper/static-mobile/0001/image.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+        "title":"太空",
+        "preview":"https://syimg.dpdns.org/myimg/1d6831.png",
+        "url":"https://syimg.dpdns.org/myimg/1d6831.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
       }
     }
       
   },
 
   //极坐标图数据
+  // polarChart:{
+  //   skills: ['Vue.js', 'React', 'JavaScript', 'Node', 'Java', 'Python', 'linux', 'Docker', 'MySQL', 'MongoDB', 'AWS'],
+  //   skillPoints: [85, 78, 88, 90, 80, 78, 85, 65, 82, 78, 70],
+  // },
   polarChart:{
-    skills: ['Vue.js', 'React', 'JavaScript', 'Node', 'Java', 'Python', 'linux', 'Docker', 'MySQL', 'MongoDB', 'AWS'],
-    skillPoints: [85, 78, 88, 90, 80, 78, 85, 65, 82, 78, 70],
+    skills: ['Node', 'Python', 'MongoDB'],
+    skillPoints: [50, 50, 50],
   },
 
   //社交按钮
   socialPlatformIcons: [
-    {icon:"mdi-github",link:"https://www.github.com/leleo886"},
-    {icon:"mdi-email",link:"mailto:leleo886@foxmail.com"},
-    {icon:"mdi-qqchat",link:"https://im.qq.com/"},
-    {icon:"mdi-wechat",link:"https://wx.qq.com/"},
-    {icon:"mdi-youtube",link:"https://www.youtube.com"},
-    {icon:"mdi-facebook",link:"https://www.facebook.com"}
+    {icon:"mdi-github",link:"https://www.github.com/wdaoz"},
+    {icon:"mdi-email",link:"mailto:bollm236@outlook.com"}
+    // {icon:"mdi-qqchat",link:"https://im.qq.com/"},
+    // {icon:"mdi-wechat",link:"https://wx.qq.com/"},
+    // {icon:"mdi-youtube",link:"https://www.youtube.com"},
+    // {icon:"mdi-facebook",link:"https://www.facebook.com"}
   ],
 
   //打字机
   typeWriterStrings: [
-    "如果你看到了这行字，说明我已经成功吸引到了你的注意力。",
-    "顶峰的少年，给了你所有细节，你却说我不是迪迦，给不了你想要的光。",
-    "心简单，世界就简单，幸福才会生长；心自由，生活就自由，到哪都有快乐。",
-    "生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。"
+    "为中华之崛起而读书",
+    "为实现中华民族伟大复兴而奋斗",
+    "智者向内寻求力量，不智者才向外寻求力量"
   ],
 
   //音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
   musicPlayer:{
     server: 'netease',  //服务提供商 --网易云音乐
     type: 'playlist',   //歌单类型
-    id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+    id: '10020577266'  //歌单id ---> music.163.com/#/playlist?id=2028178887
   },
 
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
@@ -133,17 +136,17 @@ const config = {
 
   //项目卡片 其中 字段"show"控制初始卡片的text是否展开
   projectcards:[ 
-    {go:"🚀 前往",img:"/img/sunshine.jpg",title:"Project 1",subtitle:"1,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Project 2",subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🎨 前往",img:"/img/sunshine.jpg",title:"Project 6",subtitle:"6,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"💍 前往",img:"/img/sunshine.jpg",title:"Project 7",subtitle:"7,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🔍 前往",img:"/img/sunshine.jpg",title:"Project 8",subtitle:"8,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    {go:"🚀 前往",img:"/img/sunshine.jpg",title:"博客",subtitle:"1,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://syjx.dpdns.org",show:false},
+    // {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Project 2",subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    // {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    // {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    // {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    // {go:"🎨 前往",img:"/img/sunshine.jpg",title:"Project 6",subtitle:"6,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    // {go:"💍 前往",img:"/img/sunshine.jpg",title:"Project 7",subtitle:"7,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    // {go:"🔍 前往",img:"/img/sunshine.jpg",title:"Project 8",subtitle:"8,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
   ],
   
-  statement: ["备案号：XXICP备123456789号","Copyright © 2025 Leleo"],
+  // statement: ["备案号：XXICP备123456789号","Copyright © 2025 Leleo"],
 }
 
 export default config
