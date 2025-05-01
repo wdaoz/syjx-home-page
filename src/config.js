@@ -65,9 +65,8 @@ const config = {
 
   //打字机
   typeWriterStrings: [
-    "为中华之崛起而读书",
-    "为实现中华民族伟大复兴而奋斗",
-    "智者向内寻求力量，不智者才向外寻求力量"
+    "智者向内寻求力量，不智者才向外寻求力量",
+    "《成龙历险记》"
   ],
 
   //音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
