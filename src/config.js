@@ -12,8 +12,8 @@ const config = {
 
   // 颜色配置
   color: {
-    themecolor: "#D1FFEC", // 主题颜色，推荐趋于亮白可带有轻微色调，例： #D1FFEC
-    welcometitlecolor: "#7BFFC9", // 标题颜色 例： #7BFFC9
+    themecolor: "#D6ECF0", // 主题颜色，推荐趋于亮白可带有轻微色调，例： #D1FFEC
+    welcometitlecolor: "#70F3FF", // 标题颜色 例： #7BFFC9
   },
   
   brightness: 85, // 背景亮度 --%
