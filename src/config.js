@@ -135,8 +135,8 @@ const config = {
 
   //项目卡片 其中 字段"show"控制初始卡片的text是否展开
   projectcards:[ 
-    {go:"🚀 前往",img:"https://syimg.dpdns.org/myimg/1d6831.png",title:"博客",subtitle:"星星之火，可以燎原", text:"博客分享一些教程和其他内容",url:"https://syjx.dpdns.org",show:false},
-    // {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Project 2",subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    {go:"前往",img:"https://syimg.dpdns.org/myimg/1d6831.png",title:"博客",subtitle:"星星之火，可以燎原", text:"博客分享一些教程和其他内容",url:"https://syjx.dpdns.org/",show:false},
+    {go:"前往",img:"https://syimg.dpdns.org/myimg/e46baf.png",title:"新闻",subtitle:"NewsNow", text:"实时热门新闻",url:"https://sy178.dpdns.org/",show:false},
     // {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     // {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     // {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
